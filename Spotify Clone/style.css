@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400&family=Noto+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 66px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 18px;
+    align-items:  center;
+}
+
+nav ul li span{
+    margin-left: 6px;
+    font-size: 22px;
+}
+
+.brand img{
+    height: 35px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 54vh;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 26px auto;
+    width: 68vw;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.songList h1{
+    margin: 28px;
+}
+
+.songItemContainer{
+    margin: 30px 30px;
+}
+
+.songItem{
+    background-color: white;
+    color: black;
+    width: 130%;
+    border-radius: 30px;
+    padding: 6px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 13px 0;
+}
+
+.songItem img{
+    height: 46px;
+    border-radius: 45px;
+    padding: 3px;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.songBanner{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.songBanner img{
+    height: 50vh;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 22vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.songInfo{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.songInfo span{
+    margin: 0 13px;
+}
+
+#progressBar{
+    width: 85vw;
+    cursor: pointer;
+}
+
+.icons{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.icons i{
+    margin: 0 18px;
+}
